@@ -17,7 +17,7 @@ Features:
 - Full-text RSS support
 
 Some simplifications:
-- Fix bugs such as relLangURL etc  
+- Fix bugs such as relative URL managent etc 
 - Remove the style "2" and "3" in adittion  
 - Remove PREVIOUS and NEXT links at bottom of posts  
 - Remove twitter components integrated

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo Theme One</title>
-    <link>https://resugary.github.io/hugo-theme-one/</link>
-    <description>Recent content on Hugo Theme One</description>
+    <title>Posts on Hugo Theme One</title>
+    <link>https://resugary.github.io/hugo-theme-one/posts/</link>
+    <description>Recent content in Posts on Hugo Theme One</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 21 Dec 2017 23:30:36 +0800</lastBuildDate>
     
-        <atom:link href="https://resugary.github.io/hugo-theme-one/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://resugary.github.io/hugo-theme-one/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -32,16 +32,6 @@
 &lt;p&gt;また本作では、やくしまるえつこ（相対性理論、TUTU HELVETICAほか）がジャケットのイラストを手がけている。今度は音楽での共演にも期待したいところだ。&lt;/p&gt;
 
 &lt;p&gt;Source: &lt;a href=&#34;https://natalie.mu/music/news/30166&#34;&gt;natalie&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://resugary.github.io/hugo-theme-one/about/</link>
-      <pubDate>Thu, 21 Dec 2017 03:21:00 +0800</pubDate>
-      
-      <guid>https://resugary.github.io/hugo-theme-one/about/</guid>
-      <description>&lt;p&gt;One is a minimal blog theme for Hugo, which is forked from &lt;a href=&#34;https://github.com/schollz/onetwothree&#34;&gt;onetwothree&lt;/a&gt;. Learn more and contribute on &lt;a href=&#34;https://github.com/resugary/hugo-theme-one&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -373,15 +363,6 @@ tags:
 &lt;code&gt;tags&lt;/code&gt; sections are used in this example for indexing/grouping content. You will learn more about what that means by
 examining the code in this example and through reading the Hugo &lt;a href=&#34;http://gohugo.io/overview/introduction&#34;&gt;documentation&lt;/a&gt;.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Archives</title>
-      <link>https://resugary.github.io/hugo-theme-one/archives/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://resugary.github.io/hugo-theme-one/archives/</guid>
-      <description></description>
     </item>
     
   </channel>

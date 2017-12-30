@@ -5,26 +5,26 @@ One
 
 ![Screenshot](https://github.com/resugary/hugo-theme-one/blob/master/images/screenshot.png)
 
-## Differences from onetwothree
+## Differences from original onetwothree
 
-It provides some new features and simplifications. I tried to keep it minimal with less configuration to write and express yourself rather than play with a theme instead.
+It provides some new features and simplifications. I tried to keep it minimal with less configuration to write a blog rather than play with a theme instead.
 
 Features:  
-- Add archives support for all blog posts in a single page  
-- Homepage posts customizable, default with 7 latest posts instead of all posts  
+- Add archives support for all posts in a single page  
+- Homepage displayed with 7 latest posts default instead of the whole
 - Sytax highlighting with `highlight.js`  
 - Google Analytics support  
 - Full-text RSS support
 
 Some simplifications:
-- Fix bugs such as relative URL managent etc 
+- Fix critical bugs such as relative URL managent etc 
 - Remove the style "2" and "3" in adittion  
 - Remove PREVIOUS and NEXT links at bottom of posts  
 - Remove twitter components integrated
-- Remove rounded edges style of images    
+- Remove round edges style of images    
 - Remove tags displayed following each titles at homepage  
-- Change preformatted style of code block and blockquote  
-- Change posts location to `content/posts` as [hugo Quick Start](https://gohugo.io/getting-started/quick-start/) 
+- Change preformatted style of hyperlinks, code block and blockquote  
+- Change posts location to `content/posts` as hugo Quick Start
 
 ## Installation
 
@@ -82,4 +82,4 @@ Feel free to change the strings in this theme.
 
 ## License
 
-Licensed under the MIT License. See the [LICENSE](https://github.com/resugary/hugo-theme-one/blob/master/LICENSE.md) file for more details.
+Licensed under the MIT License.

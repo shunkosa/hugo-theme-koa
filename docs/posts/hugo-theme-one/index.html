@@ -21,8 +21,7 @@
 	<meta name="og:type" content="article">
 	
 	<meta name="article:tag" content="hugo theme ">
-	<link rel="stylesheet" type="text/css" href="https://resugary.github.io/hugo-theme-one//css/style.css">
-	<script src="/js/caption.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://resugary.github.io/hugo-theme-one/css/style.css">
 	
 	
 <script>
@@ -42,11 +41,14 @@ ga('send', 'pageview');
 <body>
 
 <header>
-	<a href="https://resugary.github.io/hugo-theme-one/" style="float: left;color:#777;"><strong>Hugo Theme One</strong></a>
-	<a href="https://resugary.github.io/hugo-theme-one/archives/" style="color:#777;"><strong>Archives</strong></a><a href="https://resugary.github.io/hugo-theme-one/about/" style="color:#777;"><strong>About</strong></a>
-
-
 	
+	<a href="https://resugary.github.io/hugo-theme-one/" style="float: left;color:#777;"><strong>Hugo Theme One</strong></a>
+	
+	&nbsp;&nbsp;<a href="https://resugary.github.io/hugo-theme-one/archives/" style="color:#777;"><strong>Archives</strong></a>&nbsp;&nbsp;<a href="https://resugary.github.io/hugo-theme-one/about/" style="color:#777;"><strong>About</strong></a>
+	
+	
+	
+	<a href="https://resugary.github.io/hugo-theme-one/index.xml" style="color:#777;float: right;"><strong><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></strong></a>
 </header>
 
 
@@ -103,25 +105,26 @@ window.onload = ready;
 
 <p><a href="https://github.com/resugary/hugo-theme-one">One</a> is a minimal blog theme for Hugo, which is forked from <a href="https://github.com/schollz/onetwothree">onetwothree</a>.</p>
 
-<h2 id="differences-from-onetwothree">Differences from onetwothree</h2>
+<h2 id="differences-from-original-onetwothree">Differences from original onetwothree</h2>
 
-<p>It provides some new features and simplifications. I tried to keep it minimal with less configuration to write and express yourself rather than play with a theme instead.</p>
+<p>It provides some new features and simplifications. I tried to keep it minimal with less configuration to write a blog rather than play with a theme instead.</p>
 
 <p>Features:<br />
-- Add archives support for all blog posts in a single page<br />
-- Homepage posts customizable, default with 7 latest posts instead of all posts<br />
+- Add archives support for all posts in a single page<br />
+- Homepage displayed with 7 latest posts default instead of the whole
 - Sytax highlighting with <code>highlight.js</code><br />
 - Google Analytics support<br />
 - Full-text RSS support</p>
 
-<p>Some simplifications:<br />
+<p>Some simplifications:
+- Fix critical bugs such as relative URL managent etc
 - Remove the style &ldquo;2&rdquo; and &ldquo;3&rdquo; in adittion<br />
 - Remove PREVIOUS and NEXT links at bottom of posts<br />
 - Remove twitter components integrated
-- Remove rounded edges style of images<br />
+- Remove round edges style of images<br />
 - Remove tags displayed following each titles at homepage<br />
-- Change preformatted style of code block and blockquote<br />
-- Change posts location to <code>content/posts</code> as <a href="https://gohugo.io/getting-started/quick-start/">hugo Quick Start</a></p>
+- Change preformatted style of hyperlinks, code block and blockquote<br />
+- Change posts location to <code>content/posts</code> as hugo Quick Start</p>
 
 <h2 id="installation">Installation</h2>
 
@@ -173,7 +176,7 @@ googleAnalytics = &quot;UA-123-45&quot;
 
 <h2 id="license">License</h2>
 
-<p>Licensed under the MIT License. See the <a href="https://github.com/resugary/hugo-theme-one/blob/master/LICENSE.md">LICENSE</a> file for more details.</p>
+<p>Licensed under the MIT License.</p>
 
 </div>
 

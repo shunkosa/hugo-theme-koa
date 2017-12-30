@@ -5,11 +5,9 @@ tags: ["example","song"]
 draft: false
 ---
 
-Share a song.  
+Share a song ["A Little Because"](https://soundcloud.com/momoro-cutiecutie/a-little-because-teshima-aoi).   
 
 > A Little Because is a short version of Because.  
-
-<iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/103199910&amp;color=%23ff5500&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>    
 
 菅野よう子と手嶌葵によるコラボレーションシングル「Because」が、本日4月7日にiTunes Store限定でリリースされた。
 

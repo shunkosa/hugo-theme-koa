@@ -17,13 +17,11 @@
       <pubDate>Thu, 21 Dec 2017 23:30:36 +0800</pubDate>
       
       <guid>https://resugary.github.io/hugo-theme-one/posts/a-little-because-by-teshima-aoi/</guid>
-      <description>&lt;p&gt;Share a song.&lt;/p&gt;
+      <description>&lt;p&gt;Share a song &amp;ldquo;&lt;a href=&#34;https://soundcloud.com/momoro-cutiecutie/a-little-because-teshima-aoi&#34;&gt;A Little Because&lt;/a&gt;&amp;rdquo;.&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;A Little Because is a short version of Because.&lt;/p&gt;
 &lt;/blockquote&gt;
-
-&lt;iframe width=&#34;100%&#34; height=&#34;300&#34; scrolling=&#34;no&#34; frameborder=&#34;no&#34; src=&#34;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/103199910&amp;amp;color=%23ff5500&amp;amp;auto_play=true&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&amp;amp;show_teaser=true&amp;amp;visual=true&#34;&gt;&lt;/iframe&gt;    
 
 &lt;p&gt;菅野よう子と手嶌葵によるコラボレーションシングル「Because」が、本日4月7日にiTunes Store限定でリリースされた。&lt;/p&gt;
 
@@ -41,7 +39,9 @@
       <pubDate>Thu, 21 Dec 2017 03:21:00 +0800</pubDate>
       
       <guid>https://resugary.github.io/hugo-theme-one/about/</guid>
-      <description>&lt;p&gt;One is a minimal blog theme for Hugo, which is forked from &lt;a href=&#34;https://github.com/schollz/onetwothree&#34;&gt;onetwothree&lt;/a&gt;. Learn more and contribute on &lt;a href=&#34;https://github.com/resugary/hugo-theme-one&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/resugary/hugo-theme-one&#34;&gt;One&lt;/a&gt; is a minimal blog theme for Hugo, which is forked from &lt;a href=&#34;https://github.com/schollz/onetwothree&#34;&gt;onetwothree&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Source code is released under the MIT license on GitHub. Feel free to use if you want to learn more or contribute.&lt;/p&gt;
 </description>
     </item>
     
@@ -57,7 +57,7 @@
 
 &lt;p&gt;&lt;img src=&#34;https://wx1.sinaimg.cn/large/b28d52d0gy1fmocc5eiekj20lc0sgwhz.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;source: Twiiter@&lt;a href=&#34;https://twitter.com/lespros_rio/status/672026262374756352&#34;&gt;lespros_rio&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;source: Twiiter&lt;a href=&#34;https://twitter.com/lespros_rio/status/672026262374756352&#34;&gt;@lespros_rio&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -159,25 +159,26 @@ done!
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/resugary/hugo-theme-one&#34;&gt;One&lt;/a&gt; is a minimal blog theme for Hugo, which is forked from &lt;a href=&#34;https://github.com/schollz/onetwothree&#34;&gt;onetwothree&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h2 id=&#34;differences-from-onetwothree&#34;&gt;Differences from onetwothree&lt;/h2&gt;
+&lt;h2 id=&#34;differences-from-original-onetwothree&#34;&gt;Differences from original onetwothree&lt;/h2&gt;
 
-&lt;p&gt;It provides some new features and simplifications. I tried to keep it minimal with less configuration to write and express yourself rather than play with a theme instead.&lt;/p&gt;
+&lt;p&gt;It provides some new features and simplifications. I tried to keep it minimal with less configuration to write a blog rather than play with a theme instead.&lt;/p&gt;
 
 &lt;p&gt;Features:&lt;br /&gt;
-- Add archives support for all blog posts in a single page&lt;br /&gt;
-- Homepage posts customizable, default with 7 latest posts instead of all posts&lt;br /&gt;
+- Add archives support for all posts in a single page&lt;br /&gt;
+- Homepage displayed with 7 latest posts default instead of the whole
 - Sytax highlighting with &lt;code&gt;highlight.js&lt;/code&gt;&lt;br /&gt;
 - Google Analytics support&lt;br /&gt;
 - Full-text RSS support&lt;/p&gt;
 
-&lt;p&gt;Some simplifications:&lt;br /&gt;
+&lt;p&gt;Some simplifications:
+- Fix critical bugs such as relative URL managent etc
 - Remove the style &amp;ldquo;2&amp;rdquo; and &amp;ldquo;3&amp;rdquo; in adittion&lt;br /&gt;
 - Remove PREVIOUS and NEXT links at bottom of posts&lt;br /&gt;
 - Remove twitter components integrated
-- Remove rounded edges style of images&lt;br /&gt;
+- Remove round edges style of images&lt;br /&gt;
 - Remove tags displayed following each titles at homepage&lt;br /&gt;
-- Change preformatted style of code block and blockquote&lt;br /&gt;
-- Change posts location to &lt;code&gt;content/posts&lt;/code&gt; as &lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;hugo Quick Start&lt;/a&gt;&lt;/p&gt;
+- Change preformatted style of hyperlinks, code block and blockquote&lt;br /&gt;
+- Change posts location to &lt;code&gt;content/posts&lt;/code&gt; as hugo Quick Start&lt;/p&gt;
 
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
 
@@ -229,7 +230,7 @@ googleAnalytics = &amp;quot;UA-123-45&amp;quot;
 
 &lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
 
-&lt;p&gt;Licensed under the MIT License. See the &lt;a href=&#34;https://github.com/resugary/hugo-theme-one/blob/master/LICENSE.md&#34;&gt;LICENSE&lt;/a&gt; file for more details.&lt;/p&gt;
+&lt;p&gt;Licensed under the MIT License.&lt;/p&gt;
 </description>
     </item>
     

@@ -181,9 +181,6 @@ img {
 	width: 100%;
 }
 
-
-
-
 a {
 	text-decoration: none;
 	color: inherit;
@@ -212,20 +209,11 @@ a:hover {
 	-moz-transition-duration: 0.2s;
 	-webkit-transition-duration: 0.2s;
 	transition-duration: 0.2s;
-	border-radius: 10px;
 }
 
-
-a:after {
-    position: relative;
-    content: "\FEFF°";
-    margin-left: 0.10em;
-    font-size: 80%;
-    top: -0.30em;
-    left: -0.1em;
-    color: #d21c1c;
+p a {
+	color: #0366d6;
 }
-
 
 code {
 	font-size: 85%;
@@ -238,7 +226,6 @@ code {
 	hyphens: none;
 }
 
-
 figcaption {
     font-weight: 400;
     font-style: italic;
@@ -249,6 +236,7 @@ figcaption {
     z-index: 300;
     text-align: center;
 }
+
 blockquote {
   border-left: 3.5px solid #0594cb;
   margin: 0.7em 10px;

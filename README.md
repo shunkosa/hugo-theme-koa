@@ -5,26 +5,14 @@ One
 
 ![Screenshot](https://github.com/resugary/hugo-theme-one/blob/master/images/screenshot.png)
 
-## Differences from original onetwothree
-
-It provides some new features and simplifications. I tried to keep it minimal with less configuration to write a blog rather than play with a theme instead.
+It provides some new features and simplifications from original onetwothree. I tried to keep it minimal with less configuration to write a blog rather than play with a theme instead.
 
 Features:  
 - Add archives support for all posts in a single page  
-- Homepage displayed with 7 latest posts default instead of the whole
-- Sytax highlighting with `highlight.js`  
+- Homepage displayed with 7 latest posts default  
+- Sytax highlighting support with `highlight.js`  
 - Google Analytics support  
 - Full-text RSS support
-
-Some simplifications:
-- Fix critical bugs such as relative URL managent etc 
-- Remove the style "2" and "3" in adittion  
-- Remove PREVIOUS and NEXT links at bottom of posts  
-- Remove twitter components integrated
-- Remove round edges style of images    
-- Remove tags displayed following each titles at homepage  
-- Change preformatted style of hyperlinks, code block and blockquote  
-- Change posts location to `content/posts` as hugo Quick Start
 
 ## Installation
 
@@ -34,7 +22,6 @@ Clone this repository to your hugo theme directory.
 git clone https://github.com/resugary/hugo-theme-one.git themes/one
 hugo server -t=one
 ```
-
 
 ## Create New Posts
 

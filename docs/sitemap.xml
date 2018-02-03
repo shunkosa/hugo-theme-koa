@@ -23,11 +23,6 @@
   </url>
   
   <url>
-    <loc>https://resugary.github.io/hugo-theme-one/posts/hugo-theme-one/</loc>
-    <lastmod>2017-12-20T04:22:12+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://resugary.github.io/hugo-theme-one/posts/hugo-quick-start/</loc>
     <lastmod>2016-12-20T20:08:19+08:00</lastmod>
   </url>
@@ -72,7 +67,7 @@
   
   <url>
     <loc>https://resugary.github.io/hugo-theme-one/tags/hugo/</loc>
-    <lastmod>2017-12-20T04:22:12+08:00</lastmod>
+    <lastmod>2016-12-20T20:08:19+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -103,12 +98,6 @@
   <url>
     <loc>https://resugary.github.io/hugo-theme-one/tags/</loc>
     <lastmod>2014-09-01T12:19:03+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://resugary.github.io/hugo-theme-one/tags/theme/</loc>
-    <lastmod>2017-12-20T04:22:12+08:00</lastmod>
     <priority>0</priority>
   </url>
   

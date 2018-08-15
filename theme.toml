@@ -8,11 +8,11 @@ description = "An elegant, mobile-ready, minimalistic theme."
 homepage = "https://github.com/resugary/hugo-theme-one/"
 tags = ["blog","minimal","responsive","clean","google analytics","syntax highlighting"]
 features = ["blog","minimal","responsive","clean","google analytics","syntax highlighting"]
-min_version = "0.31.1"
+min_version = "0.31"
 
 [author]
   name = "resugary"
-  homepage = "https://resugary.github.io/"
+  homepage = "https://github.com/resugary"
 
 # If porting an existing theme
 [original]

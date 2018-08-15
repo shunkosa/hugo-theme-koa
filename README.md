@@ -1,37 +1,42 @@
 One
 ===========
 
-[One](https://github.com/resugary/hugo-theme-one) is a minimal blog theme for Hugo, which is forked from [onetwothree](https://github.com/schollz/onetwothree). A demo is available [here](https://resugary.github.io/hugo-theme-one).
+[One](https://github.com/resugary/hugo-theme-one) is a mininal blog theme for [Hugo](https://gohugo.io/), which is forked from [onetwothree](https://github.com/schollz/onetwothree). It provides some new features and simplification. I tried to keep it simple with less configuration to write rather than play with a theme instead.
+
+You can check out the demo at https://resugary.github.io/hugo-theme-one.
 
 ![Screenshot](https://github.com/resugary/hugo-theme-one/blob/master/images/screenshot.png)
 
-It provides some new features and simplifications from original onetwothree. I tried to keep it minimal with less configuration to write a blog rather than play with a theme instead.
-
 Features:  
-- Add archives support for all posts in a single page  
-- Homepage displayed with 7 latest posts default  
-- Sytax highlighting support with `highlight.js`  
-- Google Analytics support  
-- Full-text RSS support
+- Add posts archive support  
+- Syntax highlighting using Chroma  
+- Optimization for text layout  
+- Add Google Analytics support  
+- Add Full-text RSS support
 
 ## Installation
 
-Clone this repository to your hugo theme directory.
+Clone this repository to your hugo `themes` directory:
 
 ```
-git clone https://github.com/resugary/hugo-theme-one.git themes/one
+git clone --depth=1 https://github.com/resugary/hugo-theme-one.git themes/one
+```
+
+Preview with hugo commands:
+
+```
 hugo server -t=one
 ```
 
 ## Create New Posts
 
-Posts should generally go under a `content/posts` directory, you may start like this:
+Posts should generally go under the `content/posts` directory, you may start like this:
 
 ```
 hugo new posts/hello.md
 ```
 
-## Create a fixed Page
+## Create A Fixed Page
 
 Fixed pages such as an About page should be present at the root of the `content` directory:
 
@@ -48,24 +53,30 @@ hugo new archives.md
 type: "archives"
 ```
 
+Take a look inside the [exampleSite](https://github.com/resugary/hugo-theme-one/tree/master/exampleSite) folder if you get stuck.
+
 ## Configuration
 
 Copy the `config.toml` in the root director of your hugo site. 
 
 ```toml
-baseURL = "https://example.com"
+# End your baseURL with a `/` trailing slash, e.g. `https://example.com/`.
+baseURL = "https://example.com/"
+
 languageCode = "en-us"
 title = "My Hugo Site"
-
 theme = "one"
 googleAnalytics = "UA-123-45"
+
+# Chroma Syntax Highlighting
+pygmentsCodefences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsStyle = "pygments"
 
 [params]
     navigation = ["archives.md", "about.md"]
 
 ```
-
-Feel free to change the strings in this theme.
 
 ## License
 

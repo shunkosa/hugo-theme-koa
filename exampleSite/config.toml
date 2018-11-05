@@ -1,16 +1,17 @@
-# End your baseURL with a `/` trailing slash, e.g. `https://example.com/`.
-baseURL = "https://example.com/"
-
+baseURL = "http://skosaka.github.io/"
 languageCode = "en-us"
-title = "Hugo Theme One"
-theme = "one"
-googleAnalytics = "UA-123-45"
-
-# Chroma Syntax Highlighting
-pygmentsCodefences = true
-pygmentsCodefencesGuessSyntax = true
-pygmentsStyle = "pygments"
+title = "Shun Kosaka"
+theme = "koa"
 
 [params]
-    navigation = ["archives.md", "about.md"]
+ navigation = ["archives.md"]
 
+[author]
+ twitter = "https://www.twitter.com/shunkosa"
+ facebook = "https://www.facebook.com/shun.kosaka"
+ github = "https://github/com/shunkosa"
+ npm = "https://www.npmjs.com/~shunkosa"
+ qiita = "https://qiita.com/shunkosa"
+ speakerdeck = "https://speakerdeck.com/skosaka"
+ salesforce = "https://success.salesforce.com/ProfileView?u=0053A00000DApW2QAL"
+ gravatarEmail = "shun.kosaka@live.jp"

@@ -34,11 +34,11 @@
     <div class="gravatar">
         <img
         class="homepage-avatar"
-        src="https://www.gravatar.com/avatar/{{ md5 .Site.Author.gravataremail }}?s=100&d=identicon"
+        src="https://www.gravatar.com/avatar/{{ md5 .Site.Author.gravataremail }}?s=256&d=identicon"
         >
     </div>
     <div class="site-title">
-        <a href="{{ .Site.BaseURL }}">{{ $.Site.Title }}</a>
+        <a href="{{ .Site.BaseURL }}"><h1>{{ $.Site.Title }}</h1></a>
     </div>
 	<!-- Navigation Pages -->
 	{{ range $i, $e:= $.Site.Params.navigation }}&nbsp;&nbsp;{{ if eq $i 0}}{{else}}{{end}}{{ with $.Site.GetPage "page" . }}<a href="{{ lower .Permalink }}" style="color:#777;">{{ title .Title }}</a>{{ end }}{{ end }}
@@ -101,7 +101,12 @@
             </svg>
         </a>
         {{ end }}
-		<a href="{{ .Site.BaseURL }}posts/index.xml" style="color:#777;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+        <a href="{{ .Site.BaseURL }}posts/index.xml" class="none">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss">
+                <path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path>
+                <circle cx="5" cy="19" r="1"></circle>
+            </svg>
+        </a>
     </div>
 </div>
 </header>

@@ -1,6 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
-/* reset */
+@font-face {
+	font-family: 'Salesforce Sans';
+	src: url("../fonts/SalesforceSans-Light.woff2") format("woff2"), 
+		 url("../fonts/SalesforceSans-Light.woff") format("woff");
+	font-weight: 300;
+}
+  
+@font-face {
+	font-family: 'Salesforce Sans';
+	src: url("../fonts/SalesforceSans-Regular.woff2") format("woff2"),
+		 url("../fonts/SalesforceSans-Regular.woff") format("woff");
+	font-weight: 400;
+}
 
+/* reset */
 * {
 	margin: 0;
 	padding: 0;
@@ -14,7 +26,7 @@ html {
 }
 
 body {
-    font-family: 'Merriweather', Helvetica, Arial, sans-serif;
+    font-family: 'Salesforce Sans', Helvetica, Arial, sans-serif;
     color: #080707;
 	padding: 0rem;
 	margin: 0 auto;
@@ -75,13 +87,17 @@ h6 {
 }
 
 h1 {
+	font-family:'Salesforce Sans';
     font-size: 1.8em;
-    font-weight: 400;
+    font-weight: 300;
     color: #16325c;
 }
 
 h2 {
-	font-size: 1.6em;
+	font-family:'Salesforce Sans';
+	font-size: 1.8em;
+	font-weight: 300;
+	color: #16325c;
 }
 
 h3 {
@@ -112,19 +128,19 @@ div.global-header{
 }
 
 
-div.gravatar{
-    width:100px;
+div.gravatar img{
+	width:128px;
+	border-radius:50%;
 }
 
 div.site-title{
-    padding-left: 10px;
+    padding-left: 1em;
     flex: 1;
 }
 
 div.site-title a{
-    font-size: 1.6em;
+	font-family: 'Salesforce Sans';
     color:#16325c;
-    font-weight:300;
 }
 
 div.social-icons a{
@@ -132,7 +148,16 @@ div.social-icons a{
     display: inline-block;
     height: 20px;
     margin: 0.1rem 0;
-    padding: 5px;
+	padding: 5px;
+	color: #16325c;
+}
+
+div.social-icons a svg{
+	fill: currentColor;
+}
+
+div.social-icons a.none svg{
+	fill: none;
 }
 
 @media all and (max-width:520px) {
@@ -205,7 +230,7 @@ img {
 }
 
 a {
-	color: #080707;
+	color: #006dcc;
 	text-decoration: none;
 }
 

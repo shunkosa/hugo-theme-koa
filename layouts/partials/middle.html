@@ -1,5 +1,5 @@
 <div class="content">
-    <h2>{{ title .Data.Term  }} Posts</h2>
+    <h1>{{ title .Data.Term  }} Posts</h1>
     {{ range first 7 .Pages }}
     {{ if eq .Type "posts"}}
     <p>

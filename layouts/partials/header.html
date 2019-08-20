@@ -7,17 +7,17 @@
 	<title>{{ .Title }}</title>
 	<!-- Search Engine -->
 	<meta name="description" content="{{ .Description }}">
-	<meta name="image" content="{{ $.Param "image" }}">
+	{{ if $.Param "image" }}<meta name="image" content="{{ .Site.BaseURL}}{{ $.Param "image" }}">{{ end }}
 	<!-- Schema.org for Google -->
 	<meta itemprop="name" content="{{ .Title }}">
 	<meta itemprop="description" content="{{ .Description }}">
-	<meta itemprop="image" content="{{ $.Param "image" }}">
+	{{ if $.Param "image" }}<meta itemprop="image" content="{{ .Site.BaseURL}}{{ $.Param "image" }}">{{ end }}
 	<!-- Open Graph general (Facebook, Pinterest & Google+) -->
 	<meta name="og:title" content="{{ .Title }}">
 	<meta name="og:description" content="{{ .Description }}">
 	{{ if $.Param "image" }}<meta name="og:image" content="{{ .Site.BaseURL}}{{ $.Param "image" }}">{{ end }}
 	<meta name="og:url" content="{{ .Permalink }}">
-	<meta name="og:site_name" content="{{ .Title }}">
+    <meta name="og:site_name" content="{{ .Title }}">
     <meta name="og:type" content="article">
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:url" content="{{ .Permalink }}" />

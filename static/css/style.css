@@ -151,6 +151,10 @@ div.site-title a{
     color:#16325c;
 }
 
+div.site-title p{
+	margin-top: 0.5em;
+}
+
 div.social-icons a{
     width:20px;
     display: inline-block;
@@ -166,6 +170,23 @@ div.social-icons a svg{
 
 div.social-icons a.none svg{
 	fill: none;
+}
+
+@media screen and (max-width:768px) {
+	div.global-header {
+		flex-wrap: wrap;
+	}
+
+	div.social-icons {
+		margin-top: 0.5em;
+		width: 100%;
+	}
+}
+
+@media screen and (min-width:768px) {
+	div.social-icons {
+		max-width: 110px;
+	}
 }
 
 @media all and (max-width:520px) {

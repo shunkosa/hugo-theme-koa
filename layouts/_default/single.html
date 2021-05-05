@@ -10,6 +10,8 @@
   <p class="date">Written on {{ .Date.Format "Jan 2, 2006"}}.</p>
 {{ end }}
 
+{{ if (eq .Type "posts") }}
 {{ template "_internal/disqus.html" . }}
+{{ end }}
 
 {{ partial "footer.html" . }}
